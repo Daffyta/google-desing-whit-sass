@@ -1,0 +1,41 @@
+@mixin list() {
+  list-style: none;
+  display: inline-flex;
+  padding: .75rem;
+  margin-right: 2%;
+  &:hover {
+    box-shadow: 0px 5px $color-hover;
+    // border-bottom: 3px solid $color-hover;
+  }
+}
+
+@mixin list-alt {
+  list-style: none;
+  display: inline-flex;
+  padding: .75rem;
+  margin-right: 2%;
+}
+
+@mixin list-style () {
+  text-decoration: none;
+  color: $color-text;
+  font-family: $font-subtitles;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@mixin subTitles () {
+  font-family: $font-subtitles;
+  color: $color-titles;
+  font-weight: 500;
+  font-size: $size-subtitles;
+  padding: 3% 0;
+}
+
+@mixin paragraphs {
+  font-family: $font-subtitles;
+  color: $color-text;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 3%;
+}

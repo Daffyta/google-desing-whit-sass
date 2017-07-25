@@ -1,0 +1,18 @@
+$color-titles: #424242;
+$color-date: #5f6368;
+$color-text: #646464;
+$blue: #4285f4;
+$font-principal: 'Roboto', sans-serif;
+$font-subtitles: 'Product Sans', sans-serif;
+$size-subtitles: 24px;
+$font-date: 16px 'Roboto Mono', monospace;
+$color-hover: #888888;
+
+$blue-line: 0px -5px  $blue;
+
+
+@for $contenedores from 1 through 7 {
+  #{'.marg-azul'} {
+    box-shadow: $blue-line;
+  }
+}
